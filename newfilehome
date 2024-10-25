@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betiyo Ka Raaj Foundation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">home</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Empowering Girls for a Better Tomorrow</h2>
+            <p>Join us in creating a brighter future for girls across the country.</p>
+            <a href="#projects" class="cta">Explore Our Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Betiyo Ka Raaj Foundation is dedicated to empowering girls by providing educational opportunities, promoting health awareness, and fostering a supportive community. We strive to break barriers and help girls realize their potential.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Our Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <h3>Project Shakti</h3>
+                    <p>Providing scholarships to underprivileged girls to ensure they have access to quality education.</p>
+                </div>
+                <div class="project">
+                    <h3>Health & Hygiene</h3>
+                    <p>Raising awareness about health and hygiene practices among young girls in rural areas.</p>
+                </div>
+                <div class="project">
+                    <h3>Skill Development</h3>
+                    <p>Offering vocational training to help girls build valuable skills for a brighter future.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post
